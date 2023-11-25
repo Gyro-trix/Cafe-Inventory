@@ -7,7 +7,7 @@ body{
     display: flex;
     border-radius: 20px;
     width: 800px;
-    height: 800px;
+    height: 900px;
     background-color: antiquewhite;
 }
 .title{
@@ -18,7 +18,7 @@ body{
     color: blue;
     border-radius: 20px;
     width: 800px;
-    height: 50px;
+    height: 75px;
     background-color:aquamarine;
 }
 .themetoggle{
@@ -28,4 +28,27 @@ body{
     height: 25%;
     margin-left: 90%;
     background-color: blue;
+}
+.sidebar{
+    background-color: rgb(26, 219, 155);
+    border-radius: 0px 20px 0px 20px;
+    margin-top: 700px;
+    height: 200px;
+    width: 50px;
+}
+.tabone{
+    background-color: rgb(9, 170, 116);
+    border-radius: 0px 20px 0px 20px;
+    margin-top: 150px;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+}
+.tabtwo{
+    background-color: rgb(9, 170, 116);
+    border-radius: 0px 20px 0px 20px;
+    margin-top: 150px;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
 }
