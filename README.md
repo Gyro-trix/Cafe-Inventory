@@ -4,17 +4,21 @@ A scaleable app that allows the user to select locations based off cupboards, di
 Employees will be able to select and modify contents of each storage option added.
 This is an external project in cooperation with a local cafe that at current wishes to be unnamed.
 
-## Starting Features
+![](alpha_ui_cafe_inventory_Nov_2023.jpg)
 
-Add seperate storage options that can be named
-Preset objects to select from added by an employer/manager
-Notification of particular items going below a threshold
-Basic Sign in system to allow testing with multiple clients
-Usable on tablets, phones, and PCs
+## Requested Starting Features
 
-## Future features
+- Seperate Storage labels corisponding to location (Fridge, Freezer, Cupboard)
+- Deafault list of objects that are needed on hand at all times
+- Notification via email or other for when an item goes below a certain threshold
+- Sign in system for manager vs employee with different access and functionality
+- Main use would be tablets or phones
+- Initial Theme should be pastel colors
+- Items need to store name, size, storage requirement, is it opened, order type as pickup vs delivery
 
-Recipe checker, shows if there is enough stock to create menu items
-Expiry tracker, allows notifications if there are items about to expire
-Email notifications, at end of shift will send out an email to manager with what is needed for the next day
+## Future feature Requests
+
+- Recipe / menu checker showing what can and cannot be prepared with current inventory
+- Tracking for expiry and if larger items have been open, marking more urgent to be used first
+- End of shift reminder for items that need to be aquired by a manager
 
