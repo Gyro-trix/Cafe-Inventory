@@ -13,5 +13,5 @@ function inventoryItem(name,num,loc,exp){
 }
 function slideOutDiv(id){
     let temp = document.getElementById(id);
-    temp.style.transform = 'translate3d(5px,0px,0px)';
+    temp.style.transform = 'translate3d(50px,0px,0px)';
 }
