@@ -1,10 +1,10 @@
 //Types of storage conatiners
 const typeid = ["fridge","fridgefzr","chestfzr","standfzr","groundcpb","wallcpb"];
-let taboneout = false;
+let tabout = [false,false];
 let tone = document.getElementById("tab1");
 tone.addEventListener("click",function (){slideOutDiv("tab1")});
 let ttwo = document.getElementById("tab2");
-tone.addEventListener("click",function (){slideOutDiv("tab2")});
+ttwo.addEventListener("click",function (){slideOutDiv("tab2")});
 //Object for inventory item
 function inventoryItem(name,num,loc,exp){
     this.name = name;
@@ -14,12 +14,13 @@ function inventoryItem(name,num,loc,exp){
 }
 function slideOutDiv(id){
     let temp = document.getElementById(id);
-    if(taboneout === false){
+    let index = parseInt(id.charAt(id.length-1));
+    if(tabout[index] === false){
         temp.style.transform = 'translate3d(50px,0px,0px)';
-        taboneout = true;
+        tabout[index] = true;
     } else {
         temp.style.transform = 'translate3d(0px,0px,0px)';
-        taboneout = false;
+        tabout[index] = false;
     }
     
 }
