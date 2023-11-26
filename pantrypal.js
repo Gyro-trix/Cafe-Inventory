@@ -1,9 +1,10 @@
 //Types of storage conatiners
 const typeid = ["fridge","fridgefzr","chestfzr","standfzr","groundcpb","wallcpb"];
 let taboneout = false;
-let temp = document.getElementById("tabone");
-temp.addEventListener("click",function (){slideOutDiv("tabone")});
-
+let tone = document.getElementById("tab1");
+tone.addEventListener("click",function (){slideOutDiv("tab1")});
+let ttwo = document.getElementById("tab2");
+tone.addEventListener("click",function (){slideOutDiv("tab2")});
 //Object for inventory item
 function inventoryItem(name,num,loc,exp){
     this.name = name;
