@@ -1,4 +1,4 @@
-# Cafe-Inventory
+# Cafe-Inventory (Currently on Hold/Attempting React Implementation)
 
 A scaleable app that allows the user to select locations based off cupboards, different fridge types and other storage locations and create small easily adjustable inventories for each.
 Employees will be able to select and modify contents of each storage option added.
